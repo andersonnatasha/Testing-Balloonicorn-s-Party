@@ -50,6 +50,9 @@ def most_and_least_common_type(treats):
         ...     {"type": "dessert"},
         ...     {"type": "drink"}])
         ('app', 'drink')
+
+        >>> most_and_least_common_type([])
+        (None, None)
     """
 
     types = {}
